@@ -132,3 +132,5 @@ body {
     height: 40px;
     font-size: 20px;
   }
+.day_num {display: flex; align-items: center; justify-content: center;} 
+.day_num input {height:35px; vertical-align: middle; margin-right: 10px;}

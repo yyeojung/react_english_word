@@ -47,8 +47,10 @@ function CreateDay() {
         <div>
             <h3>현재 단어장 수 : {days.length}개</h3>
             <form onSubmit={addDaySubmit}>
-                <input type="number" ref={dayRef} />
-                <button onClick={addDay}>day 추가</button>
+                <div className="day_num">
+                    <input type="number" ref={dayRef}/>
+                    <button onClick={addDay}>day 추가</button>
+                </div>
             </form>
         </div>
     )
