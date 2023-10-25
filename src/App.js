@@ -6,11 +6,11 @@ import EmptyPage from './Component/EmptyPage';
 import CreateWord from './Component/CreateWord';
 import CreateDay from './Component/CreateDay';
 import DeleteDay from './Component/DeleteDay';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="App">
                 <Header/>
                 <Routes>
@@ -22,7 +22,7 @@ function App() {
                     <Route path='*' element = {<EmptyPage/>}/>
                 </Routes>
             </div>
-        </BrowserRouter>
+        </Router>
     );
 }
 
