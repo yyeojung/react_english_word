@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_english_word/static/css/main.157a02a7.css",
+    "main.js": "/react_english_word/static/js/main.3ace7ea6.js",
+    "static/js/787.293c2eec.chunk.js": "/react_english_word/static/js/787.293c2eec.chunk.js",
+    "index.html": "/react_english_word/index.html",
+    "main.157a02a7.css.map": "/react_english_word/static/css/main.157a02a7.css.map",
+    "main.3ace7ea6.js.map": "/react_english_word/static/js/main.3ace7ea6.js.map",
+    "787.293c2eec.chunk.js.map": "/react_english_word/static/js/787.293c2eec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157a02a7.css",
+    "static/js/main.3ace7ea6.js"
+  ]
+}
